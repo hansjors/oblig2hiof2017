@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+	<head>	
+		<meta charset="UTF-8">
+			
+			<link rel="stylesheet" href="css/forside.css">
+				
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
+			<title>	Omsiden </title>
+		
+		<script>
+		
+				window.onload = oppstart;
+			
+				function oppstart() {
+					var tid = new Date();
+		
+						document.getElementById("tid").innerHTML = tid.getHours() + ":" + tid.getMinutes() + ":" + tid.getSeconds();
+				
+							setTimeout(oppstart,1000);
+			}
+
+		</script>
+	
+	
+	
+	</head>
+	
+		<body>
+	
+
+		
+			<header id="showcase">
+	
+						<div	id="tid"></div>
+	
+							<h1>	Webutvikling og Progresjon	</h1>
+		
+		
+						<h2> Om nettsiden </h2>
+				<i class="fa fa-file" style="font-size:32px;color:grey;"></i>
+			</header>
+		
+		
+		
+				
+	<div id="høyre">			
+
+	
+	
+	<footer>
+		<a id="hjem" class="button3" href="forside.html"> © Hans-Jørgen Søgård @Hiof2017 | Hjem?</a>
+	</footer>
+
+	
+		</div>
+	</body>
+</html>
